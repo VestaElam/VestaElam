@@ -1,0 +1,56 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B16"/>
+      <stop offset="0.58" stop-color="#17152B"/>
+      <stop offset="1" stop-color="#070910"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientTransform="translate(936 80) rotate(90) scale(78)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDE9FE"/>
+      <stop offset="0.62" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#6D28D9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="305" y1="112" x2="895" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B5FD"/>
+      <stop offset="0.5" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#sky)"/>
+  <circle cx="936" cy="80" r="78" fill="url(#moon)" opacity="0.9"/>
+  <circle cx="936" cy="80" r="40" fill="#DDD6FE" opacity="0.92"/>
+  <circle cx="952" cy="67" r="40" fill="#111225"/>
+
+  <g fill="#A78BFA">
+    <circle cx="115" cy="59" r="1.5"/><circle cx="185" cy="96" r="1"/><circle cx="254" cy="45" r="1.4"/>
+    <circle cx="352" cy="79" r="1"/><circle cx="739" cy="54" r="1.2"/><circle cx="824" cy="104" r="1"/>
+    <circle cx="1060" cy="49" r="1.5"/><circle cx="1112" cy="117" r="1"/><circle cx="663" cy="92" r="1.2"/>
+  </g>
+
+  <path d="M0 242L92 177L150 215L238 142L331 224L431 164L521 230L628 146L736 224L842 166L939 221L1043 154L1200 235V320H0V242Z" fill="#131526"/>
+  <path d="M0 268L127 213L226 263L361 191L474 268L605 198L716 259L861 205L1000 262L1111 216L1200 261V320H0V268Z" fill="#0B0D18"/>
+
+  <g opacity="0.8" filter="url(#soft)" fill="#7C3AED">
+    <path d="M69 282L88 224L107 282H69Z"/><path d="M101 284L125 207L149 284H101Z"/>
+    <path d="M1022 284L1048 202L1074 284H1022Z"/><path d="M1060 284L1081 220L1102 284H1060Z"/>
+  </g>
+
+  <rect x="236" y="83" width="728" height="139" rx="18" fill="#090B16" fill-opacity="0.62" stroke="#8B5CF6" stroke-opacity="0.35"/>
+  <rect x="258" y="105" width="684" height="95" rx="12" stroke="#A78BFA" stroke-opacity="0.15"/>
+  <text x="600" y="157" text-anchor="middle" fill="url(#title)" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="52" letter-spacing="7">VESTAELAM</text>
+  <text x="600" y="190" text-anchor="middle" fill="#9CA3AF" font-family="Consolas, monospace" font-size="16" letter-spacing="4">FROM PLAYER TO GAME CREATOR</text>
+
+  <path d="M171 246L183 216L195 246L183 274L171 246Z" fill="#A78BFA" opacity="0.22" filter="url(#glow)"/>
+  <path d="M171 246L183 216L195 246L183 274L171 246Z" stroke="#C4B5FD" stroke-width="2"/>
+  <path d="M1005 246L1017 216L1029 246L1017 274L1005 246Z" fill="#A78BFA" opacity="0.22" filter="url(#glow)"/>
+  <path d="M1005 246L1017 216L1029 246L1017 274L1005 246Z" stroke="#C4B5FD" stroke-width="2"/>
+
+  <rect x="1" y="1" width="1198" height="318" rx="23" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="2"/>
+</svg>
